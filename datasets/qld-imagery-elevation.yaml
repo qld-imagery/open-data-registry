@@ -1,0 +1,54 @@
+Name: Queensland Imagery and Elevation Data
+Description: |
+  The Queensland Imagery and Elevation dataset consists of Queensland's publicly owned...
+Documentation: https://github.com/qld-imagery/open-data
+Contact: opendata@resources.qld.gov.au
+ManagedBy: Queensland Government
+UpdateFrequency: New data will be added regularly, as part of being published to our open data services.
+Tags:
+  - aws-pds
+  - aerial imagery
+  - satellite imagery
+  - elevation
+  - earth observation
+  - stac
+  - cog
+  - geospatial
+License: TBA
+Citation: TBA
+Resources:
+  - Description: Queensland Imagery with accompanying metadata
+    ARN: arn:aws:s3:::qld-imagery
+    Region: ap-southeast-2
+    Type: S3 Bucket
+  - Description: Queensland Elevation with accompanying metadata
+    ARN: arn:aws:s3:::qld-elevation
+    Region: ap-southeast-2
+    Type: S3 Bucket
+DataAtWork:
+  Tutorials:
+    - Title: Using the s3://qld-imagery and s3://qld-elevation buckets
+      URL: https://github.com/qld-imagery/open-data/blob/master/docs/usage.md
+      AuthorName: State Imagery & Elevation Team - Queensland Government
+    - Title: Project naming and path conventions
+      URL: https://github.com/qld-imagery/open-data/blob/master/docs/naming.md
+      AuthorName: State Imagery & Elevation Team - Queensland Government
+  Tools & Applications:
+    - Title: QImagery
+      URL: https://qimagery.information.qld.gov.au/
+      AuthorName: Queensland Government
+      AuthorURL: https://www.qld.gov.au/
+    - Title: Queensland Globe
+      URL: https://qldglobe.information.qld.gov.au/
+      AuthorName: Queensland Government
+      AuthorURL: https://www.qld.gov.au/
+  Publications:
+    - Title: Optimised U-Net for Land Use-Land Cover Classification Using Aerial Photography
+      URL: https://doi.org/10.1007/s41064-023-00233-3
+      AuthorName: Andrew Clarke, Stuart Phinn and Peter Scarth
+    - Title: Use of high-resolution DEM for improving stream slope estimates and its effect on modelled fine sediment loads
+      URL: https://doi.org/10.36334/modsim.2021.L4.pollett
+      AuthorName: Angela Pollett and Banti Fentie
+    - Title: "Beach narrowing on prograding coasts: Examples from the tropics to subtropics of eastern Australia"
+      URL: https://doi.org/10.1016/j.geomorph.2022.108110
+      AuthorName: Dylan Cowley, Daniel L. Harris, Patrick T. Moss, and Jamie Shulmeister
